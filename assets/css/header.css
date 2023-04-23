@@ -1,0 +1,81 @@
+:root {
+  --dark-blue: #124698;
+  --light-blue: #d2e3ff;
+  --light-gray: #eee;
+  --orange-gradient: linear-gradient(to right, #e44d26, #f16529);
+  --navy-gradient: linear-gradient(to right, #0575e6, #021b79);
+  --yellow-gradient: linear-gradient(to right, #f2994a, #f2c94c);
+  --light-gray: #ced4da;
+  --dark-gray: #495057;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-head nav .form-control {
+  border-radius: 100px;
+  padding: 8px 16px 8px 48px;
+  width: 350px;
+  background-color: #eee;
+  position: relative;
+  border: none;
+  line-height: 32px;
+}
+.nav-head nav .fa-magnifying-glass {
+  position: absolute;
+  top: 16px;
+  z-index: 1;
+  font-size: 16px;
+  left: 16px;
+  font-weight: 700;
+  color: #ced4da;
+}
+::placeholder {
+  color: #9c9c9c;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+}
+.nav-head nav .navbar-brand {
+  width: 180px;
+  padding-left: 25px;
+}
+.search-box {
+  position: relative;
+}
+.btn-round-lg {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  font-size: 20px;
+  color: #adb5bd;
+  background: #f5f5f5;
+}
+.btn-round-lg:hover {
+  color: #124698;
+  background-color: #d2e3ff;
+  border-color: #bcd5fe;
+}
+.right-menu-icon {
+  font-size: 22px;
+  color: #adb5bd;
+}
+.right-menu-icon:hover {
+  color: #124698;
+}
+.shadow-sm {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.03) !important;
+}
+.fa-gear {
+  animation: fa-spin 2s infinite linear;
+}
+
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(359);
+  }
+}
